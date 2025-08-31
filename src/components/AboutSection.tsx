@@ -18,7 +18,7 @@ const AboutSection: React.FC = () => {
           <div className="animate-scale-in">
             <div className="relative">
               <img 
-                src="src/jackson.png?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
+                src="/jackson.png?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
                 alt="Jackson Souza - Mentor financeiro"
                 className="rounded-3xl shadow-2xl w-full h-96 object-cover"
               />
