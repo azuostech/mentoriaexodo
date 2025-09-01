@@ -44,7 +44,7 @@ const HeroSection: React.FC = () => {
           </p>
 
           <div className="animate-scale-in" style={{ animationDelay: '0.4s' }}>
-            <Button size="large" className="group">
+            <Button size="large" className="group" onClick={() => window.location.hash = '#oferta'}>
               Quero Entrar na Mentoria Êxodo
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>

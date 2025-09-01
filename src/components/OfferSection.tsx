@@ -35,7 +35,7 @@ const OfferSection: React.FC = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-elegant to-white">
+    <section id="oferta" className="py-20 bg-gradient-to-br from-gray-elegant to-white">
       <Container>
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-gold-premium text-black-deep px-6 py-3 rounded-full font-poppins font-semibold mb-6 animate-scale-in">
@@ -109,7 +109,7 @@ const OfferSection: React.FC = () => {
                 
                 <div className="text-center">
                   <div className="font-playfair text-3xl font-bold text-gold-premium mb-2">
-                    Valor: R$ 2.987
+                    Valor: R$ 4.987
                   </div>
                   <div className="font-poppins text-green-400 font-semibold">
                     à vista.
@@ -118,11 +118,18 @@ const OfferSection: React.FC = () => {
 
                 {/* Purchase Button */}
                 <div className="mt-8">
-                  <Button size="large" className="w-full">
-                    Garantir Minha Vaga - 12x R$ 308,92
-                  </Button>
+                  <a
+                    href="https://pay.hotmart.com/N101672544H?checkoutMode=10&bid=1682404373868"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block w-full"
+                  >
+                    <Button size="large" className="w-full">
+                      Garantir Minha Vaga - 12x R$ 515,77
+                    </Button>
+                  </a>
                   <p className="font-poppins text-xs text-gray-400 mt-2 text-center">
-                    ou R$ 2.987 à vista
+                    ou R$ 4.987 à vista
                   </p>
                 </div>
               </div>
@@ -136,9 +143,16 @@ const OfferSection: React.FC = () => {
             <p className="font-poppins text-lg text-gray-600 mb-8">
               Investimento que se paga sozinho com os primeiros resultados aplicados.
             </p>
-            <Button size="large" className="animate-scale-in">
-              Garantir Minha Vaga Agora
-            </Button>
+            <a
+              href="https://pay.hotmart.com/N101672544H?checkoutMode=10&bid=1682404373868"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+            >
+              <Button size="large" className="animate-scale-in">
+                Garantir Minha Vaga Agora
+              </Button>
+            </a>
           </div>
         </div>
       </Container>
