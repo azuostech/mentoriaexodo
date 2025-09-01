@@ -109,7 +109,7 @@ const OfferSection: React.FC = () => {
                 
                 <div className="text-center">
                   <div className="font-playfair text-3xl font-bold text-gold-premium mb-2">
-                    Valor: R$ 4.987
+                    Valor: R$ 5.000
                   </div>
                   <div className="font-poppins text-green-400 font-semibold">
                     à vista.
@@ -129,7 +129,7 @@ const OfferSection: React.FC = () => {
                     </Button>
                   </a>
                   <p className="font-poppins text-xs text-gray-400 mt-2 text-center">
-                    ou R$ 4.987 à vista
+                    ou R$ 5.000 à vista
                   </p>
                 </div>
               </div>
