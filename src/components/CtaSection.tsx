@@ -32,7 +32,7 @@ const CtaSection: React.FC = () => {
 
           {/* Main CTA */}
           <div className="animate-scale-in" style={{ animationDelay: '0.4s' }}>
-            <Button size="large" className="mb-8 text-xl px-16 py-6">
+            <Button size="large" className="mb-8 text-xl px-16 py-6" onClick={() => window.location.hash = '#oferta'}>
               Quero Garantir Minha Vaga na Mentoria Êxodo
               <ArrowRight className="ml-3 w-6 h-6" />
             </Button>

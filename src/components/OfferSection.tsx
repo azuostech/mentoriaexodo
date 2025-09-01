@@ -125,7 +125,7 @@ const OfferSection: React.FC = () => {
                     className="block w-full"
                   >
                     <Button size="large" className="w-full">
-                      Garantir Minha Vaga - 12x R$ 515,77
+                      Garantir Minha Vaga - 12x R$ 517,12
                     </Button>
                   </a>
                   <p className="font-poppins text-xs text-gray-400 mt-2 text-center">
